@@ -194,6 +194,7 @@ img {
   letter-spacing: 0.06em;
   cursor: pointer;
   border-radius: 4px;
+  border: none;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -592,6 +593,7 @@ a .logo-past {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -724,7 +726,8 @@ a .logo-past {
 .label-name {
   position: absolute;
   left: 0;
-  bottom: 102%;
+  bottom: 100%;
+  margin-bottom: 4px;
 }
 .form-icon-name {
   position: absolute;
@@ -739,7 +742,8 @@ a .logo-past {
 .label-tel {
   position: absolute;
   left: 0;
-  bottom: 102%;
+  bottom: 100%;
+  margin-bottom: 4px;
 }
 .form-icon-tel {
   position: absolute;
@@ -767,7 +771,8 @@ a .logo-past {
 .label-email {
   position: absolute;
   left: 0;
-  bottom: 102%;
+  bottom: 100%;
+  margin-bottom: 4px;
 }
 .form-icon-email {
   position: absolute;
@@ -784,7 +789,7 @@ a .logo-past {
 .modal-input-email:hover,
 .modal-input-email:hover + .form-icon-email,
 .modal-input-email:focus,
-.modal-input-email:focus + .form-icon-emaill {
+.modal-input-email:focus + .form-icon-email {
   border-color: var(--accent-color--);
   fill: var(--accent-color--);
 }
@@ -819,7 +824,8 @@ a .logo-past {
 .modal-comment-label {
   position: absolute;
   left: 0;
-  bottom: 102%;
+  bottom: 100%;
+  margin-bottom: 4px;
 }
 .modal-comment:hover,
 .modal-comment:focus {
@@ -828,7 +834,7 @@ a .logo-past {
 /*modal check btn*/
 .modal-check-label {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-weight: 400;
   font-size: 14px;
@@ -840,7 +846,7 @@ a .logo-past {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin-right: 7px;
+  margin-right: 8px;
 
   width: 16px;
   height: 15px;
@@ -892,6 +898,7 @@ a .logo-past {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
